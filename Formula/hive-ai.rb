@@ -1,4 +1,4 @@
-class Hive < Formula
+class HiveAi < Formula
   desc "Multi-Agent Claude System for parallel development"
   homepage "https://github.com/mbourmaud/hive"
   version "0.2.0"
