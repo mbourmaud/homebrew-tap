@@ -1,25 +1,25 @@
 class HiveAi < Formula
   desc "Multi-Agent Claude System for parallel development"
   homepage "https://github.com/mbourmaud/hive"
-  version "1.2.0"
+  version "1.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mbourmaud/hive/releases/download/v1.2.0/hive-darwin-arm64.tar.gz"
-      sha256 "ea69cb6f8b8e774528c7416fdd781ac8c1a6033ae370fad6888c71762824df5f"
+      url "https://github.com/mbourmaud/hive/releases/download/v1.3.0/hive-darwin-arm64.tar.gz"
+      sha256 "874bc073814a99a87317af3b198ddaf393df77777c09597701b3bae1865a211d"
     else
-      url "https://github.com/mbourmaud/hive/releases/download/v1.2.0/hive-darwin-amd64.tar.gz"
-      sha256 "119f0100ce008384b6f5840e6706bc8a5f635c0aaa421943d6b2ae42d01439cc"
+      url "https://github.com/mbourmaud/hive/releases/download/v1.3.0/hive-darwin-amd64.tar.gz"
+      sha256 "c6c782e781540f3de6a8db7b5bfe1a116fe24749f623dc8aecce916598ea69a0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mbourmaud/hive/releases/download/v1.2.0/hive-linux-arm64.tar.gz"
-      sha256 "4f958840134cf76d894b692be36df6a490c8b070f7d56695327e624b5367bf7d"
+      url "https://github.com/mbourmaud/hive/releases/download/v1.3.0/hive-linux-arm64.tar.gz"
+      sha256 "8259a8946bdb8091de5025808976973a348c74555987a20b52c31632ebc72c46"
     else
-      url "https://github.com/mbourmaud/hive/releases/download/v1.2.0/hive-linux-amd64.tar.gz"
-      sha256 "bb999ff190ce059c3ec3b8666f0707b1dc64ae04179971e0d43a620c9169a5b7"
+      url "https://github.com/mbourmaud/hive/releases/download/v1.3.0/hive-linux-amd64.tar.gz"
+      sha256 "6cb2b2c4528383fb05799177a5af4370aa30e43dbb067dbde595a024ab397e9c"
     end
   end
 
